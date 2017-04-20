@@ -7,7 +7,10 @@ import android.util.Log;
 import com.cipher.tradisional.library.AffineCipher;
 import com.cipher.tradisional.library.CaesarCipher;
 import com.cipher.tradisional.library.OneTimePadCipher;
+import com.cipher.tradisional.library.PolyAlphabetSubtitution;
 import com.cipher.tradisional.library.RailFenceCipher;
+
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,12 +19,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String plainText = "Hello World Tradisional Cipher";
-        int key = 4;
 
-
-        AffineCipher.setWhiteSpaceReplacement('A');
-
+        
 
     }
 }
