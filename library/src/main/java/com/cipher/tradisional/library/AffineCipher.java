@@ -8,7 +8,7 @@ public class AffineCipher {
 
     private static char whiteSpaceReplacement = 'X';
 
-    public static void setWhiteSpaceReplacement(char whiteSpaceReplacement) {
+    public static  void setWhiteSpaceReplacement(char whiteSpaceReplacement) {
         AffineCipher.whiteSpaceReplacement = whiteSpaceReplacement;
     }
 

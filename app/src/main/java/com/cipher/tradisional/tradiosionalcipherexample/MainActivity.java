@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.cipher.tradisional.library.AffineCipher;
 import com.cipher.tradisional.library.CaesarCipher;
 import com.cipher.tradisional.library.OneTimePadCipher;
 import com.cipher.tradisional.library.RailFenceCipher;
@@ -19,9 +20,7 @@ public class MainActivity extends AppCompatActivity {
         int key = 4;
 
 
-        Log.d("TAG",CaesarCipher.rightDecode("Dahhk Sknhz Pnwzeoekjwh Yeldan",key));
-        Log.d("TAG", RailFenceCipher.RFDecryptWithKey("HWTiCeXoXrsoXirlordainlpelldah",key));
-        Log.d("TAG", OneTimePadCipher.OTPDecryption("Cppvpjtdcz Vkeptb","ABCD"));
+        AffineCipher.setWhiteSpaceReplacement('A');
 
 
     }

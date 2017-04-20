@@ -6,7 +6,7 @@ import java.util.Random;
  * @author : hafiq on 20/04/2017.
  */
 
-public class KSCipher {
+public class KamasutraCipher {
 
     public static String MakeKSutra(String text,String key){
         int keyLen = key.length()/2;

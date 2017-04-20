@@ -6,9 +6,6 @@ package com.cipher.tradisional.library;
 
 public class CaesarCipher {
 
-    public CaesarCipher() {
-    }
-
     public static String leftEncode(String enc, int offset) {
         return rightEncode(enc, 26-offset);
     }
