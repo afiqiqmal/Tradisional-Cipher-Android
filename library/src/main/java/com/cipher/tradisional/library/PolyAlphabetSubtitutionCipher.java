@@ -8,7 +8,7 @@ import java.util.Random;
  * @author : hafiq on 20/04/2017.
  */
 
-public class PolyAlphabetSubtitution {
+public class PolyAlphabetSubtitutionCipher {
 
     private static String alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     private static List<String> list;
@@ -18,7 +18,7 @@ public class PolyAlphabetSubtitution {
     }
 
     public static void setPeriodList(List<String> list) {
-        PolyAlphabetSubtitution.list = list;
+        PolyAlphabetSubtitutionCipher.list = list;
     }
 
     public static List<String> generatePeriod(int polyPeriod){
